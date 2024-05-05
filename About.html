@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>about</title>
+    <link rel="about stylesheet" href="about stylesheet.css">
+</head>
+<body>
+    <div class="About">
+        <video autoplay loop muted plays-inline>
+           <source src="about(video).mp4" type="video/mp4">
+        </video>
+        <br>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#" target="_blank">ABOUT US</a></li>
+        </ul>
+    </nav>
+        <!--Features-->   
+        
+        <section id="feature">
+            <div class="title-text">
+                <p>ABOUT US</p>
+                <h1>Why Choose us</h1>
+            </div>
+            <div class="feature-box">
+                <div class="features">
+                    <h1>ABOUT COMPANY DETAILS</h1>
+                    <div class="features-desc">
+                        <div class="feature-icon">
+                            <i class="fa fa-shield"></i>
+                        </div>
+                        <div class="feature-text">
+                            <p><br><br>
+                                BNJ Group's.
+                            <br><br>
+                                It will Started at 2020, founder And CEO of BNJ Group's "Niranjan Kumar T". His is Born on 21.sep.2001.
+                            <br><br>
+                                A live virtual class. while doing in Online Mode with a Lowest Cost of College students. 
+                            <br><br>
+                                BNJ TECH is an e-learning and Research startup that provides online engineering courses for students.
+                                <br><br>
+                                We are successfully moved on this company at Five years later.
+                                <br>
+                            </p>
+                        </div>    
+                    </div>
+                    <h1>ONLINE AND OFLINE CLASSES</h1>
+                    <div class="features-desc">
+                        <div class="feature-icon">
+                        <i class="fa fa-book"></i>
+                            </div>
+                                <div class="feature-text">
+                                    <p>
+                                        <br><br>
+                                        Computing technology was not created by teachers.
+                                        <br><br>
+                                        There has been little consultation between those who promote its use in schools and those who teach with it.
+                                        <br><br>
+                                        Decisions to purchase technology for education are very often political decisions.
+                                        <br><br>
+                                        Most staff using these technologies did not grow up with them.
+                                        <br><br>
+                                        Training teachers to use computer technology did improve their confidence in its use,
+                                        but there was considerable dissatisfaction with training content and style of delivery.
+                                        <br><br>
+                                        The communication element, in particular, was highlighted as the least satisfactory part of the training,
+                                        by which many teachers meant the use of a VLE and discussion forums to deliver online training (Leask 2020).
+                                        <br><br>
+                                        Technical support for online learning, lack of access to hardware, poor monitoring of teacher progress and a 
+                                        lack of support by online tutors were just some of the issues raised by the asynchronous online delivery of training.
+                                        <br><br>                  
+                                        Newer generation web 2.0 services provide customizable, inexpensive platforms for authoring and disseminating multimedia-rich e-learning courses, 
+                                        and do not need specialised information technology (IT) support.
+                                        <br><br>
+                                        Pedagogical theory may have application in encouraging and assessing online participation.Assessment methods for on-line participation have reviewed.
+                                        <br><br>
+                                    </p>
+                                </div>    
+                            </div>
+                    <h1>INVENTION</h1>
+                    <div class="features-desc">
+                        <div class="feature-icon">
+                            <i class="fa fa-indian-rupee-sign"></i>
+                            </div>
+                            <div class="feature-text">
+                                <p><br><br>An invention is a unique or novel device, method, composition, idea or process. 
+                                    <br><br>
+                                    An invention may be an improvement upon a machine, product, or process for increasing efficiency or lowering cost.
+                                    <br><br> 
+                                    It may also be an entirely new concept. 
+                                    <br><br>
+                                    If an idea is unique enough either as a stand alone invention or as a significant improvement over the work of others, it can be patented.
+                                    <br><br> 
+                                    A patent, if granted, gives the inventor a proprietary interest in the patent over a specific period of time, which can be licensed for financial gain.
+                                    <br><br>
+                                    We create a new ideas and new products creation its fully depand on a science and technology.
+                                    <br><br>
+                            </p>
+                            </div>    
+                        </div>  
+                </div>
+                <div class="feature-img">
+                <img src="about.1.jpg">  
+                </div>     
+        </div>
+        </section>
+
+        <!--frame work-->
+
+        <section id="frame">
+            <div class="contact-form">
+                <h1>More Infromation Contact <span> US </span></h1>
+                <p>
+                <br>Company Name: BNJ Group's
+                <br>Admin Name: Niranjan kumar T
+                <br>phone: +91 9585564265
+                <br> E-mail: bnjtechresearch@gmail.com
+                </p>
+                <form onsubmit="sendEmail(); reset(); return false;">
+                    <input type="text" id="name" placeholder="your name" required>
+                    <input type="Email" name="Email" id="Email" placeholder="E-mail" required>
+                    <input type="text" placeholder="Write a Subjedct" required>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="your message" required>
+                    </textarea>
+                    <input type="submit" name="" value="submit" class="btn">
+                </form>
+            </div>
+            <script src="https://smtpjs.com/v3/smtp.js">
+
+            </script>
+            <script>
+                function sendEmail(){
+                    Email.send({
+                        secureToken : "4c4330a-7be5-4449-98fd-a9de4a836595",
+                        To : 'bnjtechresearch@gmail.com',
+                        From : document.getElementById("email").value,
+                        Subject : "New contact",
+                        Body : "name:" + document.getElementById("name").value
+                            + "<br> Email:" + document.getElementById("email").value
+                            + "<br> Write a Subjedct:" + document.getElementById("Write a Subjedct").value,
+                    }).then(
+                    message => alert("message sent sucessfully")
+                    );
+                }
+            </script>
+        </section>
+
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="index.html">Home Page</a></li>
+                    <li><a href="Company Gallery.html">Company Gallery</a></li>
+                    <li><a href="Feature Technology.html">Feature Technology</a></li>
+                    <li><a href="Service & update.html">Service& update</a></li>
+                </ul>
+            </nav> 
+        </div> 
+        <div id="menubtn">
+            <img src="download.png" id="menu">
+        </div>
+        <script>
+        var menubtn = document.getElementById("menubtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+
+        menubtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+            }
+            else{
+                sideNav.style.right= "-250px";
+            }
+        }
+        </script>
+    </body>
+</html>

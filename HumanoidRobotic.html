@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Humanoid Robotic</title>
+        <link rel="Humanoid Robotic Stylesheet" href="Humanoid Robotic Stylesheet.css">
+    </head>
+    <body>
+        <div class="HumanoidRobotic">
+            <video autoplay loop muted plays-inline>
+            <source src="nano.1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Humanoid Robotic</a></li>
+            </ul>
+        </nav>
+        <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="About.html">About</a></li>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="Company Gallery.html">Company Gallery</a></li>
+                <li><a href="Feature Technology.html">Feature Technology</a></li>
+                <li><a href="Service & update.html">Service& update</a></li>
+            </ul>
+        </nav> 
+        </div> 
+        <div id="menubtn">
+            <img src="download.png" id="menu">
+        </div>
+     <script>
+            var menubtn = document.getElementById("menubtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+         menubtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+            }
+            else{
+            sideNav.style.right= "-250px";
+            }
+            }
+     </script>
+        <!--service -->
+        <section id="service">
+            <div class="title-text">
+            <p>Humanoid robots to take centre stage at UN meet on AI</p>
+            </div>
+            <div class="service-box">
+                <div class="single-service">
+                    <img src="CG.1.jpg">
+                    <div class="overlay"></div>
+                    <div class="service-desc">
+                        <h3>Humanoid robots to take centre stage at UN meet on AI</h3>
+                        <hr>
+                        <p>
+                            <br><br>The AI for Good Global Summit, first held in 2017, will return to Geneva on July 6 and 7 after a three-year COVID-imposed break, the UN's International Telecommunication Union (ITU) said.
+                            The event will aim to showcase how artificial intelligence and other new technologies can help reach the UN's so-called sustainable development goals (SDGs), including on fighting climate change and boosting humanitarian action.
+                            "It's in our collective interest that we can shape AI faster than it is shaping us," the ITU's new chief Doreen Bogdan-Martin said in a statement.
+                            "This summit, as the UN's primary platform for AI, will bring to the table leading voices representing a diversity of interests to ensure that AI can be a powerful catalyst for progress in our race to rescue the SDGs," she added.                   
+                            UN member states adopted the 17 SDGs in 2015. Their aims include achieving food security, eliminating poverty, and providing access to clean and affordable energy by 2030.                   
+                            During the July event, eight humanoid social robots and more than 20 specialized robots will be brought together under the same roof for the first time, the ITU s   
+                            The humanoid robots—Beonmi, Nadine, Sophia, Geminoid, 4NE-1, Ai-Da Robot, Grace and Desdemona—will showcase capabilities ranging from fighting fires and delivering aid to providing healthcare and farming sustainably, it said.                   
+                            At the event, government officials, industry executives, academics and UN agency heads are due to discuss the policies, regulations and standards needed for AI to help advance sustainable development.              
+                            There will also be an "innovation factory", where start-ups from around the world can pitch their AI solutions for advancing the SDGs. </p>
+                    </div>
+                </div>
+                <div class="single-service">
+                    <img src="CG.2.jpg">
+                    <div class="overlay"></div>
+                    <div class="service-desc">
+                        <h3>Software Implementations</h3>
+                        <hr>
+                        <p><br>OpenCV is an open source machine
+                            learning software library aimed at face detection
+                            based on a given dataset by the user. It captures
+                            the face in both images and video streams in
+                            accordance with certain sequential steps. We used
+                            datasets consisting of three people, where one is
+                            kept unknown for indicating faces of people we do
+                            not knowand wish to label. With the assistance of
+                            tree command we were able to obtain the directory
+                            structure printed in our terminal. The project has
+                            four pivotal directories in the root folder which is
+                            responsible for face recognition by seeking
+                            cumulative help from files in the root directory
+                            which uses deep learning feature extractors in
+                            order to generate 128-D vector describing a face.
+                            Post extraction of embeddings from face data set
+                            using extract_embeddings.py, we worked on
+                            train_model.py script to train our linear Support
+                            Vector Machine (SMV) model which helped in
+                            face detection, extraction of embeddings and
+                            fitting our SVM model into the embeddings data.
+                            Along with recognizing static images, images in
+                            the video stream could also be recognized using
+                            recognize_video.py.
+                            <br>AI assistant: We made the use of Google Assistant
+                            API to create our own version of an assistant. It
+                            worksin coherence with the features of our robot,
+                            that is, it understands the voice commands given
+                            by the user and generates a reply or any action
+                            according to it. Using the Google Cloud Platform
+                            to create the assistant was simple to comprehend
+                            for someone inexperienced at creation of an
+                            artificial intelligence.
+                            
+                        </p>
+                    </div>
+                </div>
+                <div class="single-service">
+                    <img src="CG.3.jpg">
+                    <div class="overlay"></div>
+                    <div class="service-desc">
+                        <h3>Working process</h3>
+                        <hr>
+                        <p>
+                            <br><br>The strategy behind planning of the framework involves
+                            assembling the steel parts which forms the chassis for our
+                            robot. We stacked the Raspberry Pi and Driver Motor along
+                            with Re-speaker using the 40 pin GPIO. This stack was 
+                            placedinside the hollow torso region created in our chassis in 
+                            such a way that the battery can be connected to the Pi micro
+                            USB port,
+                            Simultaneously we connected the camera to the adjoining
+                            hollow head above the torso.
+                        </p>
+                    </div>
+                </div>
+                <div class="single-service">
+                    <img src="CG.4.jpg">
+                    <div class="overlay"></div>
+                    <div class="service-desc">
+                        <h3>Scope</h3>
+                        <hr>
+                        <p><br>Humanoids seem to possess a great potential especially in
+                            service businesses to alleviate humanely tasks and errands
+                            which could be easily performed by these robots, apart from
+                            that these robots could widely be used for medical assistance
+                            and teaching aids thus making them an efficient social robots.
+                            Their interactive ability causes them to become a great use in
+                            therapeutic aid. These robots have been witnessed to have a
+                            great potential in transitioning to industrial tools of the future,
+                            thus making them useful companion robots. Along with its
+                            interactive skills it could be processed to perform a variety of
+                            difficult manual tasks  
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--frame work-->
+
+        <section id="frame">
+            <div class="contact-form">
+                <h1>contact <span> us</span></h1>
+                <p>
+                    <br>Name: BNJ GROUP'S
+                    <br>Admin Name: Niranjan kumar T 
+                    <br>phone: +91 9585564265
+                    <br> E-mail: bnjtechresearch@gmail.com
+                </p>
+
+                <form onsubmit="sendEmail(); reset(); return false;">
+                    <input type="text" id="name" placeholder="your name" required>
+                    <input type="Email" name="Email" id="Email" placeholder="E-mail" required>
+                    <input type="text" placeholder="Write a Subjedct" required>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="your message" required>
+                    </textarea>
+                    <input type="submit" name="" value="submit" class="btn">
+                </form>
+            </div>
+            <script src="https://smtpjs.com/v3/smtp.js">
+
+            </script>
+            <script>
+                function sendEmail(){
+                    Email.send({
+                        secureToken : "4c4330a-7be5-4449-98fd-a9de4a836595",
+                        To : 'niranjankumart2001@gmail.com',
+                        From : document.getElementById("email").value,
+                        Subject : "New contact",
+                        Body : "name:" + document.getElementById("name").value
+                            + "<br> Email:" + document.getElementById("email").value
+                            + "<br> Write a Subjedct:" + document.getElementById("Write a Subjedct").value,
+                    }).then(
+                    message => alert("message sent sucessfully")
+                    );
+                }
+            </script>
+        </section>
+    </body>
+</html>
