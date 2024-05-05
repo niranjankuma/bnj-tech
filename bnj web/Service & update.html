@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Service & update</title>
+        <link rel="Service & update stylesheet" href="Service & update stylesheet.css">
+    </head>
+    <body>
+        <div class="Service">
+            <video autoplay loop muted plays-inline>
+            <source src="bnj(vide.1).mp4" type="video/mp4">
+            </video>
+            <br>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Service & update</a></li>
+            </ul>
+        </nav>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="index.html">Home Page</a></li>
+                    <li><a href="Company Gallery.html">Company Gallery</a></li>
+                    <li><a href="Feature Technology.html">Feature Technology</a></li>
+                    <li><a href="Service & update.html">Service& update</a></li>
+                </ul>
+            </nav>  
+        </div>
+        <div id="menubtn">
+            <img src="download.png" id="menu">
+        </div>
+        <script>
+        var menubtn = document.getElementById("menubtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+        menubtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+            }
+            else{
+                sideNav.style.right= "-250px";
+            }
+        }
+        </script>
+        <!-- Testimonial -->
+        <section id="testimonial">
+            <div class="title-text">
+            <p>Service & update</p>
+            <h1>What Client Says</h1>
+            </div>
+            <div class="testimonial-row">
+                <div class="testimonial-col">
+                    <div class="user">
+                        <img src="8.jpg">
+                        <div class="user-info">
+                            <h4>UNIT TEST <i class="fa fa-twitter"></i>
+                            </h4>
+                            <small>@UNIT TEST</small>
+                        </div>
+                    </div>
+                    <p> <br>Test passes and test fails confirm if the software works or doesn’t work as intended and can update its vetting every time someone changes a specific piece of code. 
+                        Unit testing saves time and money by fixing problems early in the  development process, as opposed to later during system testing, integration testing, and even beta testing. 
+                        Other benefits of unit testing include It gives developers insight into the testing code base, so they can make any code changes quickly. 
+                        More bugs caught early in the process enables the development team to spend less time debugging later and more time creating value with their work. 
+                        New team members can get up to speed more easily, without having to worry about damaging existing code, because any problems will be caught quickly. 
+                        A well-constructed unit test can be used as documentation, which is updated each time the test is run. 
+                        Because each unit test is a standalone function, it can test different parts of a project without waiting for others to be completed.  </p>
+                </div>
+                <div class="testimonial-col">
+                    <div class="user">
+                        <img src="9.jpg">
+                        <div class="user-info">
+                            <h4>FUNCTIONAL TEST <i class="fa fa-twitter"></i>
+                            </h4>
+                            <small>@FUNCTIONAL TEST</small>
+                        </div>
+                    </div>
+                    <p> The purpose of the functional testing is to check the primary entry function, necessarily usable function, the flow of screen GUI. 
+                        Functional testing displays the error message so that the user can easily navigate throughout the application. 
+                        Testers follow the following steps in the functional testing: Tester does verification of the requirement specification in the software application. 
+                        After analysis, the requirement specification tester will make a plan. After planning the tests, the tester will design the test case. 
+                        After designing the test, case tester will make a document of the traceability matrix. 
+                        The tester will execute the test case design. 
+                        Analysis of the coverage to examine the covered testing area of the application. 
+                        Defect management should do to manage defect resolving.</p>
+                </div>
+                <div class="testimonial-col">
+                    <div class="user">
+                        <img src="10.jpg">
+                        <div class="user-info">
+                            <h4>INTEGRATION TEST <i class="fa fa-twitter"></i></h4>
+                            <small>@UNIT TEST</small>
+                        </div>
+                    </div>
+                    <p>In integration testing modules are combined and tested as a group. 
+                        Modules are typically code modules, individual applications, source and destination applications on a network, etc. 
+                        Integration Testing follows unit testing and  precedes system testing. 
+                        Testing after the product is code complete. Betas are often widely distributed or even distributed to the public at large in hopes that they will buy the final product when it is released. 
+                        Even though each component might undergo rigorous testing, it can’t guarantee that the system will work as a whole. 
+                        This is where integration testing comes in Different programmers usually develop different modules with varying approaches, creating an unwanted incongruence between component designs. 
+                        Integration testing helps by ensuring the entire system runs in unison. 
+                        Modules can undergo several code changes even after being unit tested, leading to untested code being released with the product. Integration testing becomes a necessary step here.  
+                        The interfaces between software modules, the database, and external hardware can be erroneous.  
+                    This can be confirmed via integration testing.</p>
+                </div>
+            </div>    
+        </section>
+        <!--frame work-->
+        <section id="frame">
+            <div class="contact-form">
+                <h1>contact <span> us</span></h1>
+                <p>I am available for New ideas.
+                <br>Admin Name: Niranjan kumar<br>
+                phone: +91 9585564265<br> email: bnjtech@gmail.com</p>
+
+                <form onsubmit="sendEmail(); reset(); return false;">
+                    <input type="text" id="name" placeholder="your name" required>
+                    <input type="email" name="email" id="email" placeholder="E-mail" required>
+                    <input type="text" placeholder="Write a Subjedct" required>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="your message" required>
+                    </textarea>
+                    <input type="submit" name="" value="submit" class="btn">
+                </form>
+            </div>
+            <script src="https://smtpjs.com/v3/smtp.js">
+
+            </script>
+            <script>
+                function sendEmail(){
+                    Email.send({
+                        secureToken : "4c4330a-7be5-4449-98fd-a9de4a836595",
+                        To : 'niranjankumart2001@gmail.com',
+                        From : document.getElementById("email").value,
+                        Subject : "New contact",
+                        Body : "name:" + document.getElementById("name").value
+                            + "<br> Email:" + document.getElementById("email").value
+                            + "<br> Write a Subjedct:" + document.getElementById("Write a Subjedct").value,
+                    }).then(
+                    message => alert("message sent sucessfully")
+                    );
+                }
+            </script>
+        </section>
+    </body>
+</html>
+    

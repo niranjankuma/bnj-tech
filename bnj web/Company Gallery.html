@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Feature Technology</title>
+        <link rel="Company Gallery stylesheet" href="Company Gallery stylesheet.css">
+    </head>
+    <body>
+        <div class="Gallery">
+                <video autoplay loop muted plays-inline>
+                <source src="bnj(vide.2).mp4" type="video/mp4">
+                </video>
+            <br>
+        </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Company Gallery</a></li>
+                </ul>
+            </nav>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="index.html">Home Page</a></li>
+                    <li><a href="Company Gallery.html">Company Gallery</a></li>
+                    <li><a href="Feature Technology.html">Feature Technology</a></li>
+                    <li><a href="Service & update.html">Service& update</a></li>
+                </ul>
+            </nav>  
+        </div>
+        <div id="menubtn">
+            <img src="download.png" id="menu">
+        </div>
+        <script>
+                var menubtn = document.getElementById("menubtn")
+                var sideNav = document.getElementById("sideNav")
+                var menu = document.getElementById("menu")
+
+                menubtn.onclick = function(){
+                if(sideNav.style.right == "-250px"){
+                    sideNav.style.right = "0";
+                }
+                    else{
+                    sideNav.style.right= "-250px";
+                }
+                }
+        </script>
+        <!--service -->
+        <section id="service">
+            <div class="title-text">
+            <p>COMPANY Gallery</p>
+            </div>
+            <div class="service-box">
+                <div class="single-service">
+                    <img src="CG.1.jpg">
+                    <div class="overlay"></div>
+                    <div class="service-desc">
+                        <h3>All Components</h3>
+                        <hr>
+                        <p>Software testing is a method of assessing the functionality of a software program. 
+                        There are many different types of software testing, but the two main categories are dynamic testing and static testing. 
+                        Dynamic testing is an assessment that is conducted while the program is executed; static testing, on the other hand, is an examination of the program's code and associated documentation. 
+                        Dynamic and static methods are often used together.   </p>
+                    </div>
+                </div>
+                <div class="single-service">
+                    <img src="CG.2.jpg">
+                    <div class="overlay"></div>
+                    <div class="service-desc">
+                        <h3>All Components</h3>
+                        <hr>
+                        <p>The data is entered in all forms separately and whenever an error occurred; it is corrected immediately. A quality team deputed by the management verified all the necessary documents and tested the Software while entering the data at all levels.  The development process involves various types of testing. Each test type addresses a specific testing requirement. The most common types of testing involved in the development process are:   
+                            •	Unit Test.   
+                            •	Integration Test   
+                            •	Functional Test   
+                        </p>
+                    </div>
+                </div>
+                <div class="single-service">
+                    <img src="CG.3.jpg">
+                    <div class="overlay"></div>
+                    <div class="service-desc">
+                        <h3>Parts design</h3>
+                        <hr>
+                        <p>In integration testing modules are combined and tested as a group. 
+                            Modules are typically code modules, individual applications, source and destination applications on a network, etc. 
+                            Integration Testing follows unit testing and  precedes system testing. Testing after the product is code complete. 
+                            Betas are often widely distributed or even distributed to the public at large in hopes that they will buy the final product when it is released. 
+                            Even though each component might undergo rigorous testing, it can’t guarantee that the system will work as a whole. 
+                            This is where integration testing comes in. Different programmers usually develop different modules with varying approaches, creating an unwanted incongruence between component designs</p>
+                    </div>
+                </div>
+                <div class="single-service">
+                    <img src="CG.4.jpg">
+                    <div class="overlay"></div>
+                    <div class="service-desc">
+                        <h3>Building components</h3>
+                        <hr>
+                        <p>The first test in the development process is the unit test. 
+                        The source code is normally divided into modules, which in turn are divided into smaller units called units. 
+                        These units have specific behaviour. The test done on these units of code is called unit test. 
+                        Unit test depends upon the language on which the project is developed. 
+                        Unit tests ensure that each unique path of the project performs accurately to the documented specifications and contains clearly defined inputs and expected results. 
+                        Unit testing producing tests for the behavior of components (nodes and vertices) of a product to ensure their correct behavior prior to system integration. 
+                        Writing software unit test code provides quick, almost instantaneous feedback about the correctness of the coding, including its design and implementation.  </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
