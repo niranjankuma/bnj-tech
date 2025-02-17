@@ -1,0 +1,262 @@
+*{
+    background-color: black;
+}
+.img-0{
+    width: 1050px;
+
+}
+.img-1 img{
+    width: 1340px;
+    height: 650px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+.img-1 p{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    margin-top: -280px;
+    margin-left: 580px;
+    text-decoration: none;
+    display: flex;
+    text-shadow: 250px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 35px;
+    background-color: #7a787800;
+}
+.img-0 img{
+    position: absolute;
+     width: 160px;
+     background-color: rgba(0, 0, 0, 0);
+     margin-top: -650px;
+   }
+   .img-0 a{
+     position: absolute;
+     width: 150px;
+    }
+
+.img-2 img{
+    width: 500px;
+    margin-left: 150px;
+    margin-top: -505px;
+    position: absolute;
+}
+.img-2 img:hover{background-color: #ff0000;}
+
+
+
+
+@keyframes appear{
+    from{
+      opacity: 0;
+      scale: 0;
+      clip-path: inset(100% 100% 0 0);
+    }
+    to{
+      opacity:1;
+      scale:1;
+      clip-path: inset(0 0 0 0);
+      transform: translateX(opx),1s;
+    }
+  }
+  .img-2 img{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30% ;
+  }
+
+  
+.img-3 img{
+
+    width: 500px;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: -445px;
+}
+
+
+@keyframes appear{
+    from{
+      opacity: 0;
+      scale: 0;
+      clip-path: inset(100% 100% 0 0);
+    }
+    to{
+      opacity:1;
+      scale:1;
+      clip-path: inset(0 0 0 0);
+      transform: translateX(opx),1s;
+    }
+  }
+  .img-3 img{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30% ;
+  }
+  
+.img-4 img{
+    width: 350px;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -50px;
+}
+
+
+@keyframes appear{
+    from{
+      opacity: 0;
+      scale: 0;
+      clip-path: inset(100% 100% 0 0);
+    }
+    to{
+      opacity:1;
+      scale:1;
+      clip-path: inset(0 0 0 0);
+      transform: translateX(opx),1s;
+    }
+  }
+  .img-4 img{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30% ;
+  }
+  
+
+
+
+.c1{
+   width: 650px; 
+   position: absolute;
+   background-color: rgba(0, 0, 0, 0);
+}
+.c1 p{
+    color: aliceblue;
+    margin-top: 400px;
+    width: 660px;
+    margin-left: 350px;
+    text-align: justify;
+   background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+
+.vi-1 video{
+    width: 1350px;
+    height: 1900px;
+    display: block;
+    
+    margin-top: 550px;
+    margin-left: -10px;
+  }
+
+
+
+/* blank */
+
+
+.socialmedia {
+    margin-top: -75px;
+    text-decoration: nones;
+    display: flex;
+    font-size: 30px;
+    width: 50px;
+    margin-top: -340px;
+    position: relative;
+    margin-left: 540px;
+  }
+  
+  .copyright{
+    text-align: center;
+    margin-top: -10px;
+    color: #f1f1f1cb;
+    margin-left: 450px;
+    position: absolute;
+    font-size: 12px;
+  }
+  
+  
+  .location h2{
+    margin-top:-170px;
+    margin-left: 980px;
+    color:#f1f1f1da;
+    position: absolute;
+  }
+  .location p{
+    margin-top: -160px;
+    color: #f1f1f1da;
+    width: 250px;
+    margin-left: 990px;
+    line-height: -30px;
+    font-style: italic;
+    position: absolute;
+  }
+  .location p:hover{color: #1d70dd;}
+  .location img{
+    margin-left: 940px;
+    margin-top: -130px;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+  }
+  
+  .Phone{
+    margin-top: -75px;
+    color:#f1f1f1da;
+    margin-left: 990px;
+    position: absolute;
+  }
+  .Phone:hover{color: #1d70dd;}
+  
+  .Phone img{
+    margin-left: -50px;
+    margin-top: -10px;
+    position: absolute;
+    height: 30px;
+  }
+  
+  .email{
+    margin-top: -40px;
+    color: #f1f1f1da;
+    margin-left: 990px;
+    position: absolute;
+  }
+  
+  .email p{
+    margin-top:2px
+  }
+  .email:hover{color: #1d70dd;}
+  
+  .email img{
+    margin-left: -50px;
+    margin-top: -1px;
+    position: absolute;
+    
+    height: 25px;
+  }
+  .line p{
+    margin-top: -60px;
+   background-color: #f1f1f1;
+    height: 1px;
+    width: 1340px;
+    margin-left: -8px;
+    position: absolute;
+  }
+  
+  .Stay-Connected {
+    margin-top: -10px;
+    position: absolute;
+    margin-left: 600px;
+  }
+  .Stay-Connected p{
+    position: absolute;
+    margin-top: -150px;
+    font-weight: bold;
+    width: 150px;
+    font-size: 20px;
+    color: #ffffff;
+  }

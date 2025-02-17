@@ -1,0 +1,219 @@
+*{
+    background-color: black;
+}
+.img-1 img{
+    width: 1340px;
+    height: 600px;
+    position: relative;
+    margin-top: -10px;
+
+  }
+.img-2 img{
+    width: 950px;
+    height: 450px;
+    margin-top: 50px;
+    margin-left: 200px;
+    position: absolute;
+}
+@keyframes appear{
+  from{
+    opacity: 0;
+    scale: 0;
+    clip-path: inset(100% 100% 0 0);
+  }
+  to{
+    opacity:1;
+    scale:1;
+    clip-path: inset(0 0 0 0);
+    transform: translateX(opx),1s;
+  }
+}
+.img-2 img{
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30% ;
+}
+
+.img-0 img{
+ position: absolute;
+  width: 160px;
+  margin-top: -600px;
+}
+.img-0 a{
+  position: absolute;
+  width: 150px;
+
+}
+.ab-1 h1{
+  color: aliceblue;
+  margin-top:530px;
+  margin-left: 600px;
+  position: absolute;
+  text-align: center;
+}
+.ab-1 P{
+    position: absolute;
+    color: rgb(80, 80, 80);
+    width: 850px;
+    margin-top: 590px;
+    margin-left: 250px;
+    text-align: center;
+}
+
+.ab-1 p:hover{color: aliceblue;}
+
+.vi-2 video{
+    width: 750px;
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 300px;
+  }
+  .ab-c1 h1{
+    color: rgb(80, 80, 80);
+    margin-top: 1150px;
+    position: absolute;
+    text-align: center;
+    margin-left: 600px;
+  }
+  .ab-c1 p{
+    color: rgb(80, 80, 80);
+    margin-top: 1200px;
+    position: absolute;
+    text-align: center;
+    margin-left: 300px;
+  }
+  .ab-c1 p:hover{color: aliceblue;}
+
+  .ab-c1 h1:hover{color: aliceblue;}
+
+  .vi-3 video{
+    width: 750px;
+    position: absolute;
+    margin-top: 1330px;
+    margin-left: 300px;
+  }
+  .ab-c2 h2{
+    color: rgb(80, 80, 80);
+    width: 750px;
+    margin-top: 1750px;
+    position: absolute;
+    text-align: center;
+    margin-left: 300px;
+  }
+  .ab-c2 p{
+    color: rgb(80, 80, 80);
+    margin-top: 1800px;
+
+    width: 750px;
+    position: absolute;
+    text-align: center;
+    margin-left: 300px;
+  }
+  .ab-c2 p:hover{color: aliceblue;}
+
+  .ab-c2.ab-c2.h:hover:hover{color: aliceblue;}
+
+/* blank */
+
+
+.socialmedia {
+  margin-top: -75px;
+  text-decoration: nones;
+  display: flex;
+  font-size: 30px;
+  width: 50px;
+  margin-top: 2150px;
+  position: relative;
+  margin-left: 540px;
+}
+
+.copyright{
+  text-align: center;
+  margin-top: -10px;
+  color: #f1f1f1cb;
+  margin-left: 450px;
+  position: absolute;
+  font-size: 12px;
+}
+
+
+.location h2{
+  margin-top:-170px;
+  margin-left: 980px;
+  color:#f1f1f1da;
+  position: absolute;
+}
+.location p{
+  margin-top: -160px;
+  color: #f1f1f1da;
+  width: 250px;
+  margin-left: 990px;
+  line-height: -30px;
+  font-style: italic;
+  position: absolute;
+}
+.location p:hover{color: #1d70dd;}
+.location img{
+  margin-left: 940px;
+  margin-top: -130px;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+}
+
+.Phone{
+  margin-top: -75px;
+  color:#f1f1f1da;
+  margin-left: 990px;
+  position: absolute;
+}
+.Phone:hover{color: #1d70dd;}
+
+.Phone img{
+  margin-left: -50px;
+  margin-top: -10px;
+  position: absolute;
+  height: 30px;
+}
+
+.email{
+  margin-top: -40px;
+  color: #f1f1f1da;
+  margin-left: 990px;
+  position: absolute;
+}
+
+.email p{
+  margin-top:2px
+}
+.email:hover{color: #1d70dd;}
+
+.email img{
+  margin-left: -50px;
+  margin-top: -1px;
+  position: absolute;
+  
+  height: 25px;
+}
+.line p{
+  margin-top: -60px;
+ background-color: #f1f1f1;
+  height: 1px;
+  width: 1340px;
+  margin-left: -8px;
+  position: absolute;
+}
+
+.Stay-Connected {
+  margin-top: -10px;
+  position: absolute;
+  margin-left: 600px;
+}
+.Stay-Connected p{
+  position: absolute;
+  margin-top: -150px;
+  font-weight: bold;
+  width: 150px;
+  font-size: 20px;
+  color: #ffffff;
+}
